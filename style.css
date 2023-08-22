@@ -1,0 +1,129 @@
+.Top{
+    display: flex;
+    width: auto;
+    align-items: end;
+    height: 575px;
+    justify-content: space-between;
+}
+.Resize{
+    width: 100%;
+}
+.Logos{
+    width: 75%;
+    display: flex;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.bold{
+    font-weight: bold;
+    color: #FAF0E6;
+}
+h1{
+   background-color: #6575A9;
+   font-family: 'Tilt Prism';
+   width: fit-content;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #352F44;
+    padding: auto;
+    font-size: xx-large;
+}   
+#Website{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #FAF0E6;
+}
+#Skyline{
+    height: 0px;
+}
+#SkylinePhoto{
+    height: 500px;
+    width: 100%;
+}
+#logo{
+    align-self: baseline;
+}
+#Pershing{
+    display: grid;
+    background-color:	 #B9B4C7;
+    width: 75%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 50px;
+    padding-left: 10px;
+}
+#Pereshingpic{
+    grid-row: span 2;
+}
+#Magic{
+    display: grid;
+    background-color:	#5C5470 ;
+    width: 75%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 50px;
+    padding-left: 10px;
+    position: relative;
+    left: 15%; 
+}
+#Magicpic{
+    grid-row: span 2;
+}
+#Bowling{
+    display: grid;
+    background-color:	 #B9B4C7;
+    width: 75%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 50px;
+    padding-left: 10px;
+}
+#Bowlingpic{
+    grid-row: span 2;
+}
+#Sights{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-between;
+    align-items: center;
+}
+#Industry{
+    display: grid;
+    background-color:	#5C5470 ;
+    width: 75%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 50px;
+    padding-left: 10px;
+    position: relative;
+    left: 15%; 
+}
+#Industrypic{
+    grid-row: span 2;
+}
+#Club{
+    display: grid;
+    background-color: #352F44;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    color: #B9B4C7;
+   
+}
+#FinalHead{
+    grid-column: span 3;
+    color: #FAF0E6;
+}
+
+
+@media{
+
+}
